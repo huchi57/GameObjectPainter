@@ -1,6 +1,10 @@
 # GameObject Painter
 An Editor tool for painting pre-defined GameObject sets in the world.
- 
+
+| <img src="Images/img-gameobjectpainter-example-demoassets.gif" alt="Example-with-demo-assets" width="400"> |
+| --- |
+| The GIF demonstration here uses Unity's demo assets. |
+
 # Features
 - Paint GameObjects in the Editor by adjusting brush settings.
 - Preview brush elements that will be placed.
@@ -20,3 +24,45 @@ There are several ways to install this package into your Unity project:
 After installation, you should be able to use add a **GameObject Painter** by one of the two methods:
 - `Components` > `OwO` > `GameObject Painter`.
 - `GameObject` > `OwO` > `GameObject Painter`.
+
+# Manual
+Here is what the **GameObject Painter** looks like in the Editor. The following section contains a brief introduction to each fields' usage, and how to use the it.
+
+| <img src="Images/img-gameobjectpainter-example.png" alt="Example-in-the-editor" width="400"> |
+| --- |
+
+## Inspector Fields
+### Main Options
+| Field | Description |
+| --- | --- |
+| Layer Mask | The detection layers that a GameObject can be painted on. |
+| Reverse Scroll Wheel Control | When enabled, scroll whell controls will be inverted. |
+| Brush Shape | The shape of the brush, including Sphere, Cylinder, and Box.
+| Brush Radius | The radius of the GameObject brush. The higher the value, the more area the objects will cover. |
+| Brush Density | How dense should the GameObjects be painted. |
+| Brush Height | How high the brush volume is. |
+| Max Random Rotate Angle | The max angle that a GameObject element will rotate along its local center. |
+| Max Slope Angle | The max angle of the slope that allows a GameObject to be painted. |
+| Offset Rotate Angle | The global rotation of all GameObjects to be painted. |
+
+### Brush Settings
+The following settings are different per brush.
+| Field | Description |
+| --- | --- |
+| Brush Name | The display name of the brush. |
+| Min Scale | The min scale of an individual GameObject element. |
+| Max Scale | The max scale of an individual GameObject element. |
+
+## Usage
+1. When a **GameObject Painter** is added to a Scene, a default empty "New Brush" is created automatically.
+2. Go to the brush's `Brush Elements` list and add Prefabs that you wish to be painted, and set up the brush's `Min Scale` and `Max Scale`.
+3. Move the cursor to the Scene View. If set up correctly, you should see GameObject previews enclosed in outlines indicating the size and the area of the brush.
+4. Left click to paint these objects.
+
+## Scene View Controls
+- **Left Click:** Paint.
+- **Hold Alt + Left Click:** Erase (the outline should changed into red when you hold the alt key.
+- **Hold Control + Mouse Scroll:** Change the `Brush Radius`.
+- **Hold Shift + Mouse Scroll:** Change the `Brush Density`.
+- **Hold Alt + Mouse Scroll:** Change the `Brush Height`.
+- **\[ and \] keys:** Change the `Offset Rotate Angle`.
