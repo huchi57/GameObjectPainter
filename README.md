@@ -1,6 +1,8 @@
 # GameObject Painter
 An Editor tool for painting pre-defined GameObject sets in the world.
 
+Here is the [devlog](https://github.com/huchi57/Memo/blob/main/Ideas/The%20Maths%20Behind%20Placing%20Many%20Objects%20(And%20Removing%20Them).md) behind the main math implementations of this tool.
+
 | <img src="Images/img-gameobjectpainter-example-demoassets.gif" alt="Example-with-demo-assets" width="400"> |
 | --- |
 | This GIF demonstration uses Unity's 3D Game Kit demo assets. |
