@@ -57,6 +57,16 @@ namespace UrbanFox.GameObjectPainter.Editor
             return true;
         }
 
+        [MenuItem("GameObject/OwO/GameObject Painter")]
+        private static void AddGameObjectPainter(MenuCommand menuCommand)
+        {
+            var newPainter = new GameObject("GameObject Painter");
+            newPainter.AddComponent<GameObjectPainter>();
+            GameObjectUtility.SetParentAndAlign(newPainter, menuCommand.context as GameObject);
+            Undo.RegisterCreatedObjectUndo(newPainter, "Create GameObject Painter");
+            Selection.activeObject = newPainter;
+        }
+
         private void OnEnable()
         {
             m_gameObjectPainter = (GameObjectPainter)target;
