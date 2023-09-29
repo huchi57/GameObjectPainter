@@ -1,0 +1,11 @@
+{
+  "name": "com.urbanfox.objectpainter",
+  "version": "1.0.0",
+  "displayName": "Object Painter",
+  "documentationUrl": "https://github.com/huchi57/objectpainter",
+  "author": {
+    "name": "Hu Chi",
+    "email": "huchi.hello@gmail.com"
+  },
+  "description": "An Editor tool for painting pre-defined Prefab sets in the world."
+}
