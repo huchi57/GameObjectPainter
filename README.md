@@ -70,4 +70,4 @@ The following settings are different per brush.
 - **\[ and \] keys:** Change the `Offset Rotate Angle`.
 
 # Reference
-- [3D Game Kit](https://assetstore.unity.com/packages/templates/tutorials/3d-game-kit-115747) - by Unity Technologies.
+- [3D Game Kit](https://assetstore.unity.com/packages/templates/tutorials/3d-game-kit-115747)(link to the Asset Store) - by Unity Technologies.
