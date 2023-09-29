@@ -3,7 +3,7 @@ An Editor tool for painting pre-defined GameObject sets in the world.
 
 | <img src="Images/img-gameobjectpainter-example-demoassets.gif" alt="Example-with-demo-assets" width="400"> |
 | --- |
-| This GIF demonstration uses Unity's demo assets. |
+| This GIF demonstration uses Unity's 3D Game Kit demo assets. |
 
 # Features
 - Paint GameObjects in the Editor by adjusting brush settings.
@@ -68,3 +68,6 @@ The following settings are different per brush.
 - **Hold Shift + Mouse Scroll:** Change the `Brush Density`.
 - **Hold Alt + Mouse Scroll:** Change the `Brush Height`.
 - **\[ and \] keys:** Change the `Offset Rotate Angle`.
+
+# Reference
+- [3D Game Kit](https://assetstore.unity.com/packages/templates/tutorials/3d-game-kit-115747) - by Unity Technologies.
