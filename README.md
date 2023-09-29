@@ -69,5 +69,5 @@ The following settings are different per brush.
 - **Hold Alt + Mouse Scroll:** Change the `Brush Height`.
 - **\[ and \] keys:** Change the `Offset Rotate Angle`.
 
-# Reference
+# References
 - [3D Game Kit](https://assetstore.unity.com/packages/templates/tutorials/3d-game-kit-115747) (link to the Asset Store) - by Unity Technologies.
