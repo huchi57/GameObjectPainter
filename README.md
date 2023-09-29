@@ -3,7 +3,7 @@ An Editor tool for painting pre-defined GameObject sets in the world.
 
 | <img src="Images/img-gameobjectpainter-example-demoassets.gif" alt="Example-with-demo-assets" width="400"> |
 | --- |
-| The GIF demonstration here uses Unity's demo assets. |
+| This GIF demonstration uses Unity's demo assets. |
 
 # Features
 - Paint GameObjects in the Editor by adjusting brush settings.
