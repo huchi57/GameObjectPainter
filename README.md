@@ -28,7 +28,7 @@ After installation, you should be able to use add a **GameObject Painter** by on
 A demo scene can be located at the directory `Sample/GameObjectPainter_DemoScene.unity`.
 
 # Manual
-Here is what the **GameObject Painter** looks like in the Editor. The following section contains a brief introduction to each fields' usage, and how to use the it.
+Here is what the **GameObject Painter** looks like in the Editor. The following section contains a brief introduction to each field's usages, and how to use this tool.
 
 | <img src="Images/img-gameobjectpainter-example.png" alt="Example-in-the-editor" width="400"> |
 | --- |
