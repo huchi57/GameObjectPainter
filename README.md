@@ -3,7 +3,7 @@ An Editor tool for painting pre-defined GameObject sets in the world.
 
 Here is the [devlog](https://github.com/huchi57/Memo/blob/main/Ideas/The%20Maths%20Behind%20Placing%20Many%20Objects%20(And%20Removing%20Them).md) behind the main math implementations of this tool.
 
-| <img src="Images/img-gameobjectpainter-example-demoassets.gif" alt="Example-with-demo-assets" width="400"> |
+| <img src="Images/img-gameobjectpainter-example-demoassets.gif" alt="Example-with-demo-assets" width="80%"> |
 | --- |
 | This GIF demonstration uses Unity's 3D Game Kit demo assets. |
 
@@ -32,7 +32,7 @@ A demo scene can be located at the directory `Sample/GameObjectPainter_DemoScene
 # Manual
 Here is what the **GameObject Painter** looks like in the Editor. The following section contains a brief introduction to each field's usages, and how to use this tool.
 
-| <img src="Images/img-gameobjectpainter-example.png" alt="Example-in-the-editor" width="400"> |
+| <img src="Images/img-gameobjectpainter-example.png" alt="Example-in-the-editor" width="80%"> |
 | --- |
 
 ## Inspector Fields
